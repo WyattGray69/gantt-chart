@@ -1,4 +1,21 @@
-gantt
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gantt Chart</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            mermaid.initialize({ startOnLoad: true });
+        });
+    </script>
+</head>
+<body>
+    <h1>Project Tasks Gantt Chart</h1>
+    <div class="mermaid">
+        gantt
 title Project Tasks Gantt Chart
 dateFormat YYYY-MM-DD
 section Pedro
@@ -138,3 +155,8 @@ Remove loose rocks on tent area.  :crit, Invalid Dates, 1d
 section Myrna
 Septic tank controls/  :crit, Invalid Dates, 1d
 Septic service pumped all units  :crit, Invalid Dates, 1d
+
+    </div>
+</body>
+</html>
+  
