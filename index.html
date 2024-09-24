@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Tasks Gantt Chart</title>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .mermaid {
+            max-width: 100%;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Project Tasks Gantt Chart</h1>
+    <div class="mermaid">
+        gantt
+        title Project Tasks Gantt Chart
+        dateFormat YYYY-MM-DD
+        section Pedro
+        Weeds and rock at hangar :active, 2024-09-12, 4d
+        section Kaden
+        Get cleaning basics. :active, 2024-09-15, 1d
+        section Tanner
+        Shooting platform structure :active, 2024-09-05, 18d
+        section Steve/Ross 
+        Mock up gun room layout.  :crit, active, 2024-01-01, 10d
+        section Pick
+        Electrical fixes :active, 2024-09-16, 3d
+        section Wyatt
+        Finalize hangar drawings.  :active, 2024-03-03, 198d
+        section Pick
+        Finish water tank in garage.  :active, 2024-09-12, 10d
+        section Steve/Ross 
+        Order additional weapons. :active, 2024-09-12, 10d
+        section Steve/Ross 
+        Order NVGs and Thermal Vision :active, 2024-09-12, 10d
+        section Steve/Ross 
+        Get FFL paperwork done.  :crit, active, 2024-01-01, 10d
+        section Wyatt
+        Get Defender fixed and back.  :crit, active, 2024-01-01, 10d
+        section Jakob
+        Get 2 20ft Connex Containers  :crit, active, 2024-01-01, 10d
+        section Pedro
+        Empty wine room.  :crit, active, 2024-01-01, 10d
+        section 
+        Add framing in gun room for metal slats  :crit, active, 2024-01-01, 10d
+        section Pick
+        Fix lights on entryway.  :active, 2024-09-13, 6d
+        section Pick
+        Add garage remotes  :active, 2024-09-13, 6d
+        section Pick
+        Underground propane tank.  :crit, active, 2024-01-01, 10d
+        section Tanner, Pick
+        Make Pistol Range Larger and add taller berms  :crit, active, 2024-01-01, 10d
+        section Tanner
+        Add Back dirt berm on rifle range and dirt berms at each target  :crit, active, 2024-01-01, 10d
+        section Pick
+        Adding Warning Signs, to specific location at range :crit, active, 2024-01-01, 10d
+        section Wyatt
+        Getting additional steel targets for the 50-225M  :crit, active, 2024-01-01, 10d
+        section Wyatt
+        Come up with man door cover plan.  :crit, active, 2024-01-01, 10d
+        section Kaden
+        Pick Up Suburban Plates :active, 2024-09-01, 15d
+        section Kaden
+        Get Porsche wrap color approved.  :crit, active, 2024-01-01, 10d
+        section Wyatt
+        Camper Top for Nicks new Bison  :active, 2024-09-15, 14d
+        section Pick, Wyatt
+        Bumper and winch for Nicks New ATX4 AEV Duramax :active, 2024-09-01, 16d
+        section Steve/Ross 
+        Research Indoor Shooting Container Options(Pistol) :crit, active, 2024-01-01, 10d
+        section Cayden, Kaden
+        Key Lock Box for SY6 :crit, active, 2024-01-01, 10d
+        section Kaden, Cayden
+        Kaden Teach Cayden Trash Protocol :crit, active, 2024-01-01, 10d
+        section Wyatt
+        Figure out polishing and waxing floors  :crit, active, 2024-01-01, 10d
+        section Jakob
+        Let Esteban know about cars and washing of cars and directed to Cayden  :crit, active, 2024-01-01, 10d
+        section Kaden
+        Order Vinyl for Mini Cooper and Porsche.  :crit, active, 2024-01-01, 10d
+        section Wyatt
+        Wyatt set up vinyl account for material.  :crit, active, 2024-01-01, 10d
+        section Kaden, Pick, Wyatt, Cayden
+        Floor Drain location for Cayden to Wash Cars.  :crit, active, 2024-01-01, 10d
+        section Pick
+        Casters for Yellow flammable container.  :crit, active, 2024-01-01, 10d
+        section Kaden
+        Covers for Nicks Cars :crit, active, 2024-01-01, 10d
+        section Wyatt
+        Filevine emails for all Locations in sheets.  :crit, active, 2024-01-01, 10d
+        section Wyatt
+        Filevine project emails.  :crit, active, 2024-01-01, 10d
+        section Kaden
+        Source bathroom cleaning material.  :crit, active, 2024-01-01, 10d
+        section Cayden
+        Cayden Locker for SY6 deep,  :crit, active, 2024-01-01, 10d
+        section Cayden, Kaden
+        Practice Mini Cooper before Porsche  :crit, active, 2024-01-01, 10d
+        section Wyatt, Kaden
+        Videos of Vinyl  :crit, active, 2024-01-01, 10d
+        section Cayden, Wyatt
+        Call sun sun supply for vinyl  :active, 2024-09-18, 1d
+        section Cayden
+        Help Esteban clean room  :crit, active, 2024-01-01, 10d
+        section Cayden
+        Pack Gravel Down at EV 12 and SY6 :crit, active, 2024-01-01, 10d
+        section Wyatt, Pick
+        SY6 garage door sensors fix :crit, active, 2024-01-01, 10d
+        section Pick
+        Washer and Dryer hookup at 1200 :crit, active, 2024-01-01, 10d
+        section Jakob
+        Robert Ryan Needs to be added to TL4J website and give him template for bio :crit, active, 2024-01-01, 10d
+        section Pick
+        Build Metal rack next to gun rack for Sonic Cleaner and add additional magnetic hangers on gun rack :crit, active, 2024-01-01, 10d
+        section Pedro
+        Repair Dry wall at Gym  :active, 2024-09-23, 3d
+        section Myrna
+        Fireplace :crit, active, 2024-01-01, 10d
+        section Myrna
+        Carpet service :crit, active, 2024-01-01, 10d
+        section Pick, Pedro
+        Fireplace modification at 1200 MM :crit, active, 2024-01-01, 10d
+        section Myrna
+        Source Fireplace cleaning :crit, active, 2024-01-01, 10d
+        section Tanner
+        Source out Saw mill (Best Bang for buck)  :crit, active, 2024-01-01, 10d
+        section Tanner, Pick, Pedro
+        Fill dirt, Gravel, Top Soil. Quote and prep for that.  :crit, active, 2024-01-01, 10d
+        section Cayden, Kaden
+        Inventory the storage units. Need a google sheet and pictures  :active, 2024-09-21, 2d
+         section Wyatt, Pick, Kaden, Cayden
+        Fix Tug Door and See what we can do to resolve :crit, active, 2024-01-01, 10d
+        section Cayden
+        Wrap Tug matte Grey  :crit, active, 2024-01-01, 10d
+        section Tanner
+        Metal Roof at 160 MM  :crit, active, 2024-01-01, 10d
+        section Tanner
+        Get Greg up to property and redo trails.  :crit, active, 2024-01-01, 10d
+        section Pedro
+        Gym ceiling leak :crit, active, 2024-01-01, 10d
+    </div>
+</body>
+</html>
+
